@@ -204,7 +204,7 @@ body {
   width: 100%;
   text-align: center;
   position: fixed;
-  top: 100px;
+  top: 150px;
 }
 
 .hero .content h1 {
@@ -266,11 +266,15 @@ body {
   display: flex;
 }
 
-.about .row .aboout-img {
+.about .row .about-img {
   flex: 1 1 45rem;
+  mask-image: url("../img/menu/splash.svg");
+  mask-size: 50%;
+  mask-repeat: no-repeat;
+  mask-position: center;
 }
 
-.about .row .aboout-img img {
+.about .row .about-img img {
   width: 100%;
 }
 

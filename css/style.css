@@ -198,6 +198,16 @@ body {
   );
 } */
 
+.hero .mask-container {
+  position: absolute;
+  /* background: salmon */
+  inset: 0;
+  mask-image: url("../img/header-bg.svg");
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  mask-position: center;
+}
+
 .hero .content {
   padding: 1.4rem 7%;
   /* max-width: 60rem; */

@@ -185,7 +185,17 @@ body {
 }
 
 /* .hero::after { 
-  content: "";
+  content: "";<svg
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <use href="img/feather-sprite.svg#star" />
+                </svg>
   display: block;
   position: absolute;
   width: 100%;
@@ -405,12 +415,6 @@ body {
 .products .product-price {
   font-size: 1.3rem;
   font-weight: bold;
-}
-
-.products .product-price span {
-  text-decoration: line-through;
-  font-weight: lighter;
-  font-size: 1rem;
 }
 
 /* Contact Section */
